@@ -1,0 +1,61 @@
+.caja{
+border:5px solid black;
+border-radius:4px;
+width:200;
+height:200;
+place-items:center
+display:grid;
+font-weight:600;
+}
+
+.stage{
+position:relative;
+background-color:lightblue;
+border:5px solid black;
+margin:22px;
+padding:15px;
+}
+
+.sticky {
+background-color:red;
+position: sticky;
+top:30;
+left:200;
+margin:22px;
+}
+
+.relative {
+position:relative;
+left:1473px;
+top:280px;
+background-color:green;
+margin-top:10px;
+}
+
+.absolute {
+position:absolute;
+top:1532px;
+left:62px;
+background-color:blue;
+}
+
+.static{
+position:static;
+margin-bottom:432px;
+background-color:yellow;
+}
+
+.container{
+height:2200px;
+margin:22px;
+background-color:grey;
+}
+
+.fixed{
+position:fixed;
+right:742px;
+bottom:43px;
+background-color:pink;
+}
+
+.spacer{height:500px;}
